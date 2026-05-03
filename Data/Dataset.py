@@ -15,7 +15,7 @@ from torch.utils.data import Dataset, DataLoader
 from pathlib import Path
 from typing import Tuple, Optional
 
-PROCESSED_DIR = Path(__file__).parent / "processed"
+PROCESSED_DIR = Path()/ "processed"
 
 # ----------------------------------------------------------------- labels ---
 MITBIH_CLASSES = ["Normal (N)", "Supraventriculair (S)", "Ventriculair (V)", "Fusie (F)", "Onbekend (Q)"]
