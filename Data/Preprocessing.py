@@ -28,8 +28,8 @@ import numpy as np
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-RAW_DIR = Path(__file__).parent / "raw"
-PROCESSED_DIR = Path(__file__).parent / "processed"
+RAW_DIR = Path() / "raw"
+PROCESSED_DIR = Path() / "processed"
 
 # ============================================================ MIT-BIH =======
 
@@ -224,4 +224,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main_2()
