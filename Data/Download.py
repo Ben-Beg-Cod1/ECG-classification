@@ -17,7 +17,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
  
-RAW_DIR = Path(__file__).parent / "raw"
+RAW_DIR = Path() / "raw"
  
 # ------------------------------------------------------------------ MIT-BIH --
 MITBIH_BASE = "https://physionet.org/files/mitdb/1.0.0/"
